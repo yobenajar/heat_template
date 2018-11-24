@@ -1,0 +1,16 @@
+parameters:
+        key_name: yobe
+        image_lin: Ubuntu Server 16.04 LTS (Xenial Xerus) amd64
+        flavor_lin: m1.medium
+        image_win: Windows Server 2016 Std Eval
+        flavor_win: m1.medium
+        public_net: ntnu-internal
+        private_net_name: net1
+        private_net_cidr: 192.168.192.0/24
+        private_net_gateway: 192.168.192.1
+        private_net_pool_start: 192.168.192.200
+        private_net_pool_end: 192.168.192.250
+        security_group_lin: default,linux
+        security_group_win: 
+                - default
+                - windows
